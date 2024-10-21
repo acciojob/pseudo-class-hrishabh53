@@ -7,7 +7,7 @@
 }
 
 #container::before {
-  content: "Special text before"; /* Insert your desired text */
+  content: "Before Element"; /* Insert your desired text */
   display: block;
   color: #f00; /* Red color */
   font-size: 20px;
@@ -15,7 +15,7 @@
 }
 
 #container::after {
-  content: "Special text after"; /* Insert your desired text */
+  content: "After Element"; /* Insert your desired text */
   display: block;
   color: #f00; /* Red color */
   font-size: 20px;
